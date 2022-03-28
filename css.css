@@ -1,0 +1,316 @@
+body{
+	/* background: #543b30; */
+}
+
+
+
+.flex-container-start {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+	
+	min-height: 200px;
+	height: 400px;
+    }
+
+.flex-item-start:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+	
+	background: #a6a5a2;
+	-webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+	
+	background-image: url("https://media.gettyimages.com/photos/young-woman-portrait-picture-id1272756535");
+	background-repeat: no-repeat;
+	background-size: 70%  auto ;
+	opacity: 0.75;
+    }
+
+.flex-item-start:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+	background: #999896;
+	
+	-webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    }
+
+.flex-item-start:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+	background: #807f7d;
+	
+	-webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    }
+	
+	
+/*  * * * *   */
+
+.flex-container-side {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+    }
+
+.flex-item-side:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+	
+	background: #f5ecee;
+    }
+
+.flex-item-side:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 8 0 auto;
+    -ms-flex: 8 0 auto;
+    flex: 8 0 auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    }
+
+.flex-item-side:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }	
+	
+/*   = moon = = = = = = = = = = = = =   */
+			.flex-container-moon {
+					display: -ms-flexbox;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-flex-direction: row;
+					-ms-flex-direction: row;
+					flex-direction: row;
+					-webkit-flex-wrap: nowrap;
+					-ms-flex-wrap: nowrap;
+					flex-wrap: nowrap;
+					-webkit-justify-content: flex-start;
+					-ms-flex-pack: start;
+					justify-content: flex-start;
+					-webkit-align-content: stretch;
+					-ms-flex-line-pack: stretch;
+					align-content: stretch;
+					-webkit-align-items: flex-start;
+					-ms-flex-align: start;
+					align-items: flex-start;
+    
+					
+						min-height: 200px;
+						height: 400px;
+					}
+			.flex-item-moon:nth-child(1) {
+				    -webkit-order: 0;
+					-ms-flex-order: 0;
+					order: 0;
+					-webkit-flex: 1 0 auto;
+					-ms-flex: 1 0 auto;
+					flex: 1 0 auto;
+					
+						background: #e3c1d6;
+						-webkit-align-self: stretch;
+						-ms-flex-item-align: stretch;
+						align-self: stretch;						
+					}
+
+			.flex-item-moon:nth-child(2) {
+					-webkit-order: 0;
+					-ms-flex-order: 0;
+					order: 0;
+					-webkit-flex: 1 0 auto;
+					-ms-flex: 1 0 auto;
+					flex: 1 0 auto;
+					
+					background: #ebd3e2;
+					background-image: url("https://media.gettyimages.com/photos/beautiful-young-woman-with-perfect-skin-picture-id1157428225");
+					background-repeat: no-repeat;
+					background-size: 70%  auto ;
+					opacity: 0.75;
+						-webkit-align-self: stretch;
+						-ms-flex-item-align: stretch;
+						align-self: stretch;
+					}
+
+			.flex-item-moon:nth-child(3) {
+					-webkit-order: 0;
+					-ms-flex-order: 0;
+					order: 0;
+					-webkit-flex: 1 1 auto;
+					-ms-flex: 1 1 auto;
+					flex: 1 1 auto;
+					
+						background: #ddc2ec;
+						-webkit-align-self: stretch;
+						-ms-flex-item-align: stretch;
+						align-self: stretch;
+					}	
+
+/*   = callisto = = = = = = = = = = = = =   */
+			.flex-container-callisto {
+					display: -ms-flexbox;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-flex-direction: row;
+					-ms-flex-direction: row;
+					flex-direction: row;
+					-webkit-flex-wrap: nowrap;
+					-ms-flex-wrap: nowrap;
+					flex-wrap: nowrap;
+					-webkit-justify-content: flex-start;
+					-ms-flex-pack: start;
+					justify-content: flex-start;
+					-webkit-align-content: stretch;
+					-ms-flex-line-pack: stretch;
+					align-content: stretch;
+					-webkit-align-items: flex-start;
+					-ms-flex-align: start;
+					align-items: flex-start;
+    
+						min-height: 200px;
+						height: 400px;
+					}
+			.flex-item-callisto:nth-child(1) {
+				    -webkit-order: 0;
+					-ms-flex-order: 0;
+					order: 0;
+					-webkit-flex: 1 0 auto;
+					-ms-flex: 1 0 auto;
+					flex: 1 0 auto;
+					
+						background: #e3c1d6;
+						-webkit-align-self: stretch;
+						-ms-flex-item-align: stretch;
+						align-self: stretch;
+					}
+
+			.flex-item-callisto:nth-child(2) {
+					-webkit-order: 0;
+					-ms-flex-order: 0;
+					order: 0;
+					-webkit-flex: 1 0 auto;
+					-ms-flex: 1 0 auto;
+					flex: 1 0 auto;
+					
+					background: #ebd3e2;
+					background-image: url("https://media.gettyimages.com/photos/beautiful-girl-with-wet-hair-picture-id1285136678");
+					background-repeat: no-repeat;
+					background-size: 70%  auto ;
+					opacity: 0.75;
+						-webkit-align-self: stretch;
+						-ms-flex-item-align: stretch;
+						align-self: stretch;
+					}
+
+			.flex-item-callisto:nth-child(3) {
+					-webkit-order: 0;
+					-ms-flex-order: 0;
+					order: 0;
+					-webkit-flex: 1 0 auto;
+					-ms-flex: 1 0 auto;
+					flex: 1 0 auto;
+					
+						background: #ddc2ec;
+						-webkit-align-self: stretch;
+						-ms-flex-item-align: stretch;
+						align-self: stretch;
+					}	
+/*   = = = =  = = = = = = = = = = */
+	
+.box-caption-description{
+	position: relative;
+	margin-top: 250px;
+}
+	
+.box-caption {
+  width: 730px;
+  background-color: rgba(0,0,0,.3);
+  color: #f2f2f2;
+  text-align: right;
+  margin: 1px;
+}
+
+.box-caption-name {
+	font-size: 60px;
+}
+.box-caption-job {
+	font-size: 20px;
+}
+
+.box-caption:hover {
+  background-color: rgba(0,0,0,.5);
+  color: #e6e6e6;
+  transition: all ease .5s;
+}	
